@@ -2,37 +2,40 @@ $(document).ready(function(){
 
   // MODAL
   var modalText = {
-    roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
-      detail: 'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.roambi.com'
+    library: {
+      title: 'EKSU Library',
+      tag: 'Library Management System',
+      detail: 'This is a Library Management System built for Ekiti State University (EKSU), Ado-Ekiti, Ekiti State. This solution helps to manage the books, and library users of the library. This solution was written in PHP[Laravel] and Javascript[Vue Js]',
+      link: 'http://eksu-library.herokuapp.com'
     },
-    walker: {
-      title: 'WalkerTracker',
-      tag: 'PERFORMANCE METRICS.',
-      detail: 'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.',
+    crypto: {
+      title: 'Crypto',
+      tag: 'Flutter Cryptocurrency',
+      detail: 'Crypto is an app for a group of cryptocurrency lovers. Crypto was written with Flutter and it uses Coinmarketcap API to fetch latest currency details',
+      link: 'https://github.com/emmanuelJet/Crypto'
     },
-    powur: {
-      title: 'Powur.com',
-      tag: 'MULTI-LEVEL MARKETING.',
-      detail: 'Powur is a multi-level marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-      link: 'http://www.powur.com/with/42'
+    jossy: {
+      title: 'Jossy Vegetable Oil',
+      tag: 'Graphics Jossy',
+      detail: 'Jossy Vegetable Oil is a company that sells vegetable Oil. I helped in design their logo, business card and lots more.',
     },
-    mystand: {
-      title: 'MyStand',
-      tag: 'CROWD-FUNDED CHARITY.',
-      detail: 'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.',
+    thesoft: {
+      title: 'The Soft Company NG',
+      tag: 'Laravel TheSoftCompany',
+      detail: 'The Soft Company is a company with developers and designers that craft digital products and services that help their customers change; change the way they work, change the way they sell, change the way they communicate, and ultimately, help them change the world',
+      link: 'http://thesoftcomapany.herokuapp.com/'
     },
-    never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
-      detail: 'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.',
+    portfolioo: {
+      title: 'JET Portfolio',
+      tag: 'Flutter Flutter4Web',
+      detail: 'This is my portfolio platform built with Flutter For Web',
+      link: 'https://jet-portfolio.surge.sh/#/'
     },
-    themall: {
-      title: 'The Mall',
-      tag: 'PEER GUIDED SHOPPING.',
-      detail: 'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.',
+    successland: {
+      title: 'CAC Successland',
+      tag: 'Laravel Church',
+      detail: 'CAC Successland is a church based in Lagos with a mission to reach out to the world, preaching, and proclaiming the gospel of Jesus Christ and winning souls for the kingdom of God.',
+      link: 'http://cac-successland.herokuapp.com/'
     }
   };
 
@@ -118,7 +121,7 @@ $(document).ready(function(){
     });
     $.each($('#modal .slide'), function(index, value) {
       $(this).css({
-        background: "url('assets/img/slides/" + id + '-' + index + ".jpg') center center/cover",
+        background: "url('assets/img/slides/" + id + '-' + index + ".png') center center/cover",
         backgroundSize: 'cover'
       });
               
