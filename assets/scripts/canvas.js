@@ -2,7 +2,7 @@ var space;
 
 function floatySpace() {
   var colors = [
-    "#FF3F8E", "#04C2C9", "#2E55C1"
+    "#FF3F8E", "#f7296e", "#2E55C1"
   ];
 
 

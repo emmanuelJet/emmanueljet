@@ -124,8 +124,8 @@ body {
   transition: all .5s;
   cursor: pointer; }
   .button:hover {
-    background-color: #04C2C9;
-    border-color: #04C2C9; }
+    background-color: #f7296e;
+    border-color: #f7296e; }
   .button .mdi {
     vertical-align: middle; }
 
@@ -150,7 +150,7 @@ body {
   height: 80px; }
 
 .hexagon {
-  background-color: #04C2C9;
+  background-color: #f7296e;
   height: 100%;
   width: calc(100% * 0.57735);
   display: inline-block; }
@@ -206,7 +206,7 @@ nav {
   height: 50px;
   width: 100%;
   background: #1B242F;
-  border-bottom: 3px solid #04C2C9;
+  border-bottom: 3px solid #f7296e;
   text-align: left;
   z-index: 99; }
   nav.fixed {
@@ -425,7 +425,7 @@ section {
     padding: 0 7px;
     height: 200px; }
   section:nth-of-type(2) .highlight {
-    color: #009ADA; }
+    color: #f3256a; }
   section:nth-of-type(2) .up-arrow {
     margin: 15px 0;
     height: 30px; }
@@ -484,14 +484,14 @@ section {
       top: 0;
       left: 0;
       position: absolute;
-      background-color: #00A1A7;
+      background-color: #faa5c1;
       padding: 0;
       opacity: 1; }
     section:nth-of-type(2) .bar .tag {
       top: 0;
       left: 0;
       position: absolute;
-      background-color: #04C2C9;
+      background-color: #f7296e;
       color: #fff;
       height: 100%;
       width: 110px;
@@ -638,7 +638,7 @@ section {
       section:nth-of-type(4) .blog-wrap.fade .fade-wrap {
         opacity: 0.4; }
       section:nth-of-type(4) .blog-wrap.hover .fade-wrap .label {
-        color: #04C2C9; }
+        color: #f7296e; }
     section:nth-of-type(4) .label {
       line-height: 14pt;
       font-size: 12pt;
@@ -653,7 +653,7 @@ section {
     section:nth-of-type(4) .bar {
       height: 3px;
       width: 25%;
-      background: #04C2C9;
+      background: #f7296e;
       margin: 10px 0px; }
     section:nth-of-type(4) .text {
       font-size: 9pt;
@@ -671,7 +671,7 @@ section {
       width: 110px; }
     section:nth-of-type(5) .highlight {
       font-weight: 600;
-      color: #04C2C9; }
+      color: #f7296e; }
     section:nth-of-type(5) svg {
       position: absolute;
       top: 0;
@@ -702,7 +702,7 @@ section {
       background: transparent;
       outline: 0; }
       section:nth-of-type(5) .button:hover {
-        background: #04C2C9; }
+        background: #f7296e; }
     section:nth-of-type(5) #success {
       height: 0;
       width: 100%;
@@ -762,7 +762,7 @@ footer {
     footer .icon-wrap .mdi.mdi-codepen {
       font-size: 20pt; }
   footer .icon-wrap .icon:hover {
-    background: #04C2C9;
+    background: #f7296e;
     box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
     transform: scale(0.9); }
     footer .icon-wrap .icon:hover .mdi {

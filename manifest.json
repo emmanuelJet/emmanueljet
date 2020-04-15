@@ -1,0 +1,31 @@
+{
+  "name":"Emmanuel Joseph(JET)",
+  "short_name":"JET",
+  "description": "Software Developer & Community Builder",
+  "start_url":"https:/emmanueljet.me",
+  "theme_color":"#f7296e",
+  "background_color":"#ffffff",
+  "display":"standalone",
+  "icons":[
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "assets/logo/180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "assets/logo/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/logo/192.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
