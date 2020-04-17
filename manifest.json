@@ -2,7 +2,7 @@
   "name":"Emmanuel Joseph(JET)",
   "short_name":"JET",
   "description": "Software Developer & Community Builder",
-  "start_url":"https:/emmanueljet.me",
+  "start_url":"index.html",
   "theme_color":"#f7296e",
   "background_color":"#ffffff",
   "display":"standalone",
