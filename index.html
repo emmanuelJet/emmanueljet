@@ -1113,24 +1113,24 @@
               "title": "Emmanuel Joseph(JET)"
             }
           },
-          "#dsceksu triggers": {
-            "button": {
-              "selector": "#dsceksu",
-              "on": "click",
-              "vars": {
-                "event_name": "dsceksu",
-                "event_category": "Platform Click",
-              }
+          "click on #dsceksu trigger": {
+            "on": "click",
+            "selector": "#dsceksu",
+            "request": "event",
+            "vars": {
+              "eventName": "dsceksu",
+              "eventCategory": "communities",
+              "eventAction": "clicked-dsceksu"
             }
           },
-          "#aekiti triggers": {
-            "button": {
-              "selector": "#aekiti",
-              "on": "click",
-              "vars": {
-                "event_name": "aekiti",
-                "event_category": "Platform Click",
-              }
+          "click on #aekiti trigger": {
+            "on": "click",
+            "selector": "#aekiti",
+            "request": "event",
+            "vars": {
+              "eventName": "aekiti",
+              "eventCategory": "communities",
+              "eventAction": "clicked-aekiti"
             }
           }
         }
